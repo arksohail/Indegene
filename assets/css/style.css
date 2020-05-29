@@ -830,3 +830,25 @@ footer {
 .form__control .cta:hover {
 	opacity: .8;
 }
+
+/* Disclaimer
+========================================================================== */
+
+.disclaimer {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.disclaimer li {
+	margin: 0 10px;
+	position: relative;
+}
+
+.disclaimer li:nth-child(1n+2)::before {
+	content: '|';
+	position: absolute;
+	left: -10px;
+	top: 0;
+}
