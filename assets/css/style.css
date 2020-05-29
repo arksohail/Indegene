@@ -214,6 +214,7 @@ a {
 
 .container {
 	width: 100%;
+	background-color: black;
 }
 
 /* Wrapper
@@ -223,4 +224,122 @@ a {
 	width: 90%;
 	margin: 0 auto;
 	/* max-width: 1435px;  */
+}
+
+/* Header
+========================================================================== */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	background: #fff;
+}
+
+header .wrapper,
+nav,
+.navigation,
+.navigtaion__sm {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .wrapper {
+	padding: 20px 0;
+}
+
+h1 {
+	flex: 0 1 10%;
+}
+
+h1 a {
+	width: 100%;
+	text-indent: -9999px;
+}
+
+h1 img {
+	float: right;
+}
+
+.navigtaion__sm li {
+	width: 52px;
+	height: 52px;
+	margin-right: 4px;
+	background: #c7b198;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigtaion__sm li:hover a {
+	transform: rotateY(360deg);
+}
+
+.hamburger {
+	width: 21px;
+}
+
+.hamburger__top,
+.hamburger__mid,
+.hamburger__bottom {
+	width: 100%;
+	height: 3px;
+	margin-top: 4px;
+	display: block;
+	z-index: 10;
+	transform-origin: left;
+	transition: 0.5s ease;
+	background-color: #7f7f7f;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.hamburger__top {
+	margin-top: 0;
+}
+
+.cross .hamburger__top {
+	transform: rotate(45deg);
+}
+.cross .hamburger__mid {
+	opacity: 0;
+}
+.cross .hamburger__bottom {
+	transform: rotate(-45deg);
+}
+
+nav {
+	margin-left: 34px;
+}
+
+nav span {
+	font-size: 20px;
+	margin-right: 4px;
+}
+
+.navigation__main {
+	position: absolute;
+	top: 90px;
+	left: 0;
+	right: 0;
+	background: #fff;
+	padding: 0 6%;
+	max-height: 0;
+	overflow: hidden;
+	border-top: 2px solid #cbcbcb;
+}
+
+.navigation__main li {
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.navigation__main .active,
+.navigation__main li a:hover {
+	color: #c7b198;
 }
