@@ -416,3 +416,42 @@ nav span {
 .banner .cta--brown {
 	margin-right: 4px;
 }
+
+/* Product
+========================================================================== */
+
+.product {
+	background: #ffffff url("/assets/images/bg@1X\(1\).png") no-repeat right top;
+	background-size:100% 100%;
+}
+
+.product__content {
+	width: 50%;
+	height: 625px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-between;
+	background: #B2A08C;
+	opacity: 0.8;
+}
+
+.product__content .wrapper {
+	padding: 0 83px;
+}
+
+.product__content h2 {
+	font-family: ptsans, sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 26px;
+}
+
+.product__content p {
+	color: #fff;
+	margin-top: 22px;
+	font-size: 26px;
+}
+
+.product__content .cta {
+	margin-top: 26px;
+}
