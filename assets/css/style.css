@@ -479,7 +479,7 @@ nav span {
 .service_content,
 .service__content--left li,
 .service__content--right li {
-	margin-top: 42px;
+	margin: 42px 0;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -499,12 +499,12 @@ nav span {
 .service__content-details p {
 	width: 326px;
 	margin-top: 26px;
-	color: #E9A3A6;
+	color: #e9a3a6;
 	font-size: 17px;
 	-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 .service__content--left .service__content-details h3 {
@@ -518,7 +518,7 @@ nav span {
 .service__content-image {
 	width: 116px;
 	height: 116px;
-	background: #E9A3A6;
+	background: #e9a3a6;
 	border-radius: 50%;
 	position: relative;
 }
@@ -537,7 +537,7 @@ nav span {
 	left: 45%;
 }
 
-.service__content--left li:nth-child(2) .service__content-image img, 
+.service__content--left li:nth-child(2) .service__content-image img,
 .service__content--left li:nth-child(3) .service__content-image img {
 	top: -5%;
 }
@@ -548,4 +548,93 @@ nav span {
 
 .service__content--right li:first-child .service__content-image img {
 	left: 40%;
+}
+
+/* Testimony
+========================================================================== */
+
+.testimony {
+	background: #ffffff url("/assets/images/asphalt-1867667_1920@1X.png") no-repeat right top;
+	background-size: 100% 100%;
+	color: #fff;
+	height: 930px;
+}
+
+.testimony .wrapper {
+	padding: 124px;
+}
+
+.testimony h2 {
+	letter-spacing: 1.5px;
+	font-size: 42px;
+	text-align: center;
+}
+
+.testimony__slider {
+	margin-top: 87px;
+	/* display: flex;
+	justify-content: space-between;
+	align-items: flex-start; */
+}
+
+.testimony__slider .slide {
+	width: 300px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.testimony__slider .slide figure {
+	margin: 0 auto;
+	width: 174px;
+	height: 174px;
+}
+
+.testimony__slider .slide p,
+.testimony__slider .slide h4 {
+	margin-top: 46px;
+	color: #f8f9fb;
+}
+
+.testimony__slider .slide p {
+	width: 326px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.2;
+	font-size: 22px;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.testimony__slider .slide h4 {
+	font-size: 24px;
+	font-family: "ptsans-boldItalic", sans-serif;
+}
+
+.testimony__slider .slide.slick-center {
+	opacity: 1;
+}
+
+.testimony__slider .slick-dots {
+	margin-top: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimony__slider .slick-dots li button {
+	margin: 0 4px;
+	background: transparent;
+	width: 5px;
+	height: 26px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	text-indent: -9999px;
+	overflow: hidden;
+	outline: none;
+}
+
+.testimony__slider .slick-dots li.slick-active button {
+	background: #fff;
 }
