@@ -214,6 +214,7 @@ a {
 	padding: 22px 33px;
 	font-size: 14px;
 	border: 1px solid transparent;
+	border-radius: 2px;
 }
 
 .cta:hover {
@@ -637,4 +638,68 @@ nav span {
 
 .testimony__slider .slick-dots li.slick-active button {
 	background: #fff;
+}
+
+/* Upcoming Events
+========================================================================== */
+
+.events .wrapper {
+	padding: 100px 0;
+}
+
+.events h2 {
+	font-family: "ptsans-bold", sans-serif;
+	font-size: 36px;
+}
+
+.events_list li {
+	margin-top: 50px;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+}
+
+.events_list li > figure {
+	width: 306px;
+	height: 202px;
+}
+
+.event_list-details {
+	margin-left: 40px;
+}
+
+.event_list-details h3 {
+	font-weight: 600;
+	margin-bottom: 25px;
+	font-size: 24px;
+}
+
+.event_list-details div,
+.event_list-details div a {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.event_list-details div {
+	font-style: italic;
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+.event_list-details div a {
+	margin: 10px 0;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	color: #d3c3b4;
+}
+
+.event_list-details div a:hover {
+	text-decoration: underline;
+}
+
+.event_list-details .cta {
+	margin-top: 22px;
+	padding: 10px 15px;
 }
