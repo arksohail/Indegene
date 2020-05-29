@@ -786,3 +786,47 @@ nav span {
 	line-height: 1.4;
 	font-size: 16px;
 }
+
+/* Newsletter
+========================================================================== */
+
+footer {
+	background: #171717;
+	color: #fff;
+}
+
+.newsletter {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.newsletter h3 {
+	font-size: 48px;
+}
+
+.form-container {
+	margin-top: 30px;
+}
+
+.form__control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__control input {
+	color: #000;
+	width: 427px;
+	padding: 20px 15px;
+	font-size: 14px;
+}
+
+.form__control .cta {
+	padding: 20px;
+	border: none;
+	border-radius: 0;
+}
+
+.form__control .cta:hover {
+	opacity: .8;
+}
